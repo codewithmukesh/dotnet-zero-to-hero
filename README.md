@@ -1,10 +1,12 @@
-# .NET Zero to Hero Series
+# .NET Zero to Hero Series (.NET 8)
 
-## Become a Better .NET Developer
+### The Ultimate .NET Backend Zero to Hero Series for Web Developers!
+
+![.NET Zero to Hero Series](/assets/NET%20Zero%20to%20Hero%20Series%20Source%20Code.png)
 
 #### By Mukesh Murugan | [LinkedIn](https://www.linkedin.com/in/iammukeshm/) | [Blog](https://www.codewithmukesh.com) | [Youtube](https://www.youtube.com/@codewithmukesh?sub_confirmation=1)
 
-### Join the Series for FREE - [Subscribe](https://codewithmukesh.com/newsletter/join)
+### Join the Series for FREE 🎉 - [Subscribe](https://codewithmukesh.com/newsletter/join)
 
 ## Structured Logging with Serilog in ASP.NET Core
 
