@@ -1,0 +1,6 @@
+@FluentValidations.NET8_HostAddress = http://localhost:5056
+
+GET {{FluentValidations.NET8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
