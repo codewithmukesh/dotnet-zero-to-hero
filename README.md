@@ -21,3 +21,11 @@ Exception Handling is vital for applications of all types and traffic volumes. I
 In this article, we will discuss various approaches like Try-Catch Blocks, Default Exception Handling Middleware, Custom Exception Middleware, and IExceptionHandler. Starting from .NET 8, `IExceptionHandler` is the recommended and cleaner approach to handle exceptions!
 
 [Read Article](https://codewithmukesh.com/blog/global-exception-handling-in-aspnet-core/?utm_source=github&utm_medium=social&utm_campaign=repository)
+
+## FluentValidation in ASP.NET Core - Super Powerful Validations
+
+When it comes to Validating Models and incoming HTTP Requests, aren’t we all leaning toward Data Annotations? Although it can be quick to set up Data Annotations on your models, there are a few drawbacks to this approach.
+
+In this article we will try to understand the problems with Data Annotations for larger projects, and use an alternative, `FluentValidation` in our ASP.NET Core application. It can turn up the validation game to a whole new level, giving you total control and write much cleaner code.
+
+[Read Article](https://codewithmukesh.com/blog/fluentvalidation-in-aspnet-core/?utm_source=github&utm_medium=social&utm_campaign=repository)
