@@ -8,7 +8,7 @@ public class DeleteProductCommandHandler(AppDbContext context) : IRequestHandler
     public async Task Handle(DeleteProductCommand request, CancellationToken cancellationToken)
     {
         var product = await context.Products.FindAsync(request.Id);
-        if (product == null) return;
+        if (product is null) return;
         context.Products.Remove(product);
         await context.SaveChangesAsync();
     }
