@@ -1,0 +1,6 @@
+@MediatRPipelineFluentValidation_HostAddress = http://localhost:5197
+
+GET {{MediatRPipelineFluentValidation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
