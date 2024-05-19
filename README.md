@@ -4,7 +4,7 @@
 
 The end game of this series is to build a scalable **Clean Architecture .NET application**! I am building the content one by one to reach to the finale - _Practical Clean Architecture with ASP.NET Core_!
 
-![.NET Zero to Hero Series](/assets/NET%20Zero%20to%20Hero%20Series%20Source%20Code.png)
+![.NET Zero to Hero Series](/assets/NET%20Zero%20to%20Hero%20Series%20Banner.png)
 
 #### By Mukesh Murugan | [LinkedIn](https://www.linkedin.com/in/iammukeshm/) | [Blog](https://www.codewithmukesh.com) | [Youtube](https://www.youtube.com/@codewithmukesh?sub_confirmation=1)
 
