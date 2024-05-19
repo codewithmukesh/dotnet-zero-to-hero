@@ -7,5 +7,6 @@ public class CreateProductCommandValidator : AbstractValidator<CreateProductComm
     public CreateProductCommandValidator()
     {
         RuleFor(p => p.Name).NotEmpty().MinimumLength(4);
+        RuleFor(p => p.Price).GreaterThan(0);
     }
 }
