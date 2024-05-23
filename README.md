@@ -1,10 +1,10 @@
-# Mukesh's Practical .NET Mastery Series (.NET 8)
+# Mukesh's .NET Zero to Hero Series (.NET 8)
 
-### The Ultimate .NET Mastery Series for Web Developers!
+### The Ultimate .NET Zero to Hero Series for Web Developers!
 
 The end game of this series is to build scalable **.NET applications with Clean Architecture**! I am building the content one by one to reach to the finale - _Practical Clean Architecture in ASP.NET Core_!
 
-![Practical .NET Mastery Series](/assets/NET%20Zero%20to%20Hero%20Series%20Banner.png)
+![.NET Zero to Hero Series](/assets/NET%20Zero%20to%20Hero%20Series%20Banner.png)
 
 #### By Mukesh Murugan | [LinkedIn](https://www.linkedin.com/in/iammukeshm/) | [Blog](https://www.codewithmukesh.com) | [Youtube](https://www.youtube.com/@codewithmukesh?sub_confirmation=1)
 
