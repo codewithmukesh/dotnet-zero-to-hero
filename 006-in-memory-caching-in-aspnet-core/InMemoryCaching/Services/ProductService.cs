@@ -27,8 +27,8 @@ public class ProductService(AppDbContext context, IMemoryCache cache, ILogger<Pr
             logger.LogInformation("cache miss. fetching data for key: {CacheKey} from database.", cacheKey);
             product = await context.Products.FindAsync(id);
             var cacheOptions = new MemoryCacheEntryOptions()
-                .SetAbsoluteExpiration(TimeSpan.FromSeconds(30))
-                .SetAbsoluteExpiration(TimeSpan.FromSeconds(300))
+                .SetAbsoluteExpiration(TimeSpan.FromMinutes(50))
+                .SetSlidingExpiration(TimeSpan.FromMinutes(5))
                 .SetPriority(CacheItemPriority.Normal);
             logger.LogInformation("setting data for key: {CacheKey} to cache.", cacheKey);
             cache.Set(cacheKey, product, cacheOptions);
@@ -49,8 +49,8 @@ public class ProductService(AppDbContext context, IMemoryCache cache, ILogger<Pr
             logger.LogInformation("cache miss. fetching data for key: {CacheKey} from database.", cacheKey);
             products = await context.Products.ToListAsync();
             var cacheOptions = new MemoryCacheEntryOptions()
-                .SetAbsoluteExpiration(TimeSpan.FromSeconds(30))
-                .SetAbsoluteExpiration(TimeSpan.FromSeconds(300))
+                .SetAbsoluteExpiration(TimeSpan.FromMinutes(20))
+                .SetSlidingExpiration(TimeSpan.FromMinutes(2))
                 .SetPriority(CacheItemPriority.NeverRemove)
                 .SetSize(2048);
             logger.LogInformation("setting data for key: {CacheKey} to cache.", cacheKey);
