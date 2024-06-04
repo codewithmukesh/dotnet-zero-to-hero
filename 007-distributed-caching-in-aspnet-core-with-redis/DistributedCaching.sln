@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedCaching", "DistributedCaching\DistributedCaching.csproj", "{A5CA99E4-0BEB-475D-8448-A3753479CBEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5CA99E4-0BEB-475D-8448-A3753479CBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CA99E4-0BEB-475D-8448-A3753479CBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CA99E4-0BEB-475D-8448-A3753479CBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CA99E4-0BEB-475D-8448-A3753479CBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CB59073-2821-4FF6-B119-8D3A363922AB}
+	EndGlobalSection
+EndGlobal
