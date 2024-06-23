@@ -37,6 +37,7 @@ public class CachingBehavior<TRequest, TResponse>(
         {
             response = JsonSerializer.Deserialize<TResponse>(Encoding.Default.GetString(cachedResponse))!;
             logger.LogInformation("fetched from cache with key : {CacheKey}", request.CacheKey);
+            cache.Refresh(request.CacheKey);
         }
         else
         {
