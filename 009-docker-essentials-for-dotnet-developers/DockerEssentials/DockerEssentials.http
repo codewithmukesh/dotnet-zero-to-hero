@@ -1,0 +1,6 @@
+@DockerEssentials_HostAddress = http://localhost:5220
+
+GET {{DockerEssentials_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

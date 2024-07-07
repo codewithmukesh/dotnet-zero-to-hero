@@ -1,0 +1,11 @@
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore Visual Studio files
+.vscode/
+.vs/
+
+# Ignore user-specific files
+*.user
+*.suo

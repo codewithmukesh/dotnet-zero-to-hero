@@ -1,0 +1,44 @@
+version: "4"
+name: docker_essentials
+services:
+  webapi:
+    image: iammukeshm/docker-essentials:latest
+    pull_policy: always
+    container_name: webapi
+    networks:
+      - docker_essentials
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__dockerEssentials=Server=postgres;Port=5433;Database=dockerEssentials;User Id=pgadmin;Password=pgadmin
+    ports:
+      - 5080:8080
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: on-failure
+
+  postgres:
+    container_name: postgres
+    image: postgres:15-alpine
+    networks:
+      - docker_essentials
+    environment:
+      - POSTGRES_USER=pgadmin
+      - POSTGRES_PASSWORD=pgadmin
+      - PGPORT=5433
+    ports:
+      - 5433:5433
+    volumes:
+      - postgresdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pgadmin"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgresdata:
+
+networks:
+  docker_essentials:
+    name: docker_essentials
