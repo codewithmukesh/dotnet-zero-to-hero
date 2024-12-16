@@ -10,6 +10,10 @@ The end game of this series is to build scalable **.NET applications with Clean 
 
 ### Join the Series along with 5,000+ other .NET Developers! 🎉 - [Subscribe](https://newsletter.codewithmukesh.com/subscribe)
 
+### Subscribe to my YouTube Channel for .NET Content! 🎉 - [Subscribe](https://www.youtube.com/@codewithmukesh?sub_confirmation=1)
+
+---
+
 ## Structured Logging with Serilog in ASP.NET Core
 
 When building a new ASP.NET Core project, prioritizing the setup of logging is crucial for robust monitoring and debugging capabilities right from the start. **Serilog** is the most popular logging library for ASP.NET Core applications.
@@ -71,3 +75,11 @@ In this article, we will:
 By the end of this tutorial, you'll have a deeper understanding of how to create clean, scalable .NET systems using CQRS.
 
 [Read Article](https://codewithmukesh.com/blog/cqrs-and-mediatr-in-aspnet-core/?utm_source=github&utm_medium=social&utm_campaign=repository)
+
+## Validation with MediatR Pipeline Behavior & FluentValidation
+
+Validation is super essential for your application to ensure the sanity of the incoming requests. In this article, we will learn a clean way to implement validation in your ASP.NET Core projects using the MediatR and FluentValidation libraries. This is powerful in projects that has already adapted the CQRS / CQS patterns using MediatR.
+
+We will learn about MediatR Pipeline Behavior in ASP.NET Core, the idea of Pipelines, and How to intersect the pipeline to add custom service, and most importantly the validation behavior using FluentValidation.
+
+[Read Article](https://codewithmukesh.com/blog/validation-with-mediatr-pipeline-behavior-and-fluentvalidation/)
